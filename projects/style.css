@@ -1,0 +1,42 @@
+body{
+    background-color: blueviolet;
+}
+*{
+    background: url(https://www.google.com/imgres?q=images%20logo&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fbird-colorful-logo-gradient-vector_343694-1365.jpg%3Fsemt%3Dais_hybrid%26w%3D740&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Flogo-concept&docid=Y47QCKmix33cWM&tbnid=x6VzhJUSIQkBOM&vet=12ahUKEwj5hMWCy62OAxVgr1YBHeBHIbYQM3oFCIIBEAA..i&w=740&h=740&hcb=2&ved=2ahUKEwj5hMWCy62OAxVgr1YBHeBHIbYQM3oFCIIBEAA);
+}
+html{
+                background: url(https://i1.sndcdn.com/artworks-1XinD7GRPTN3imja-XKr0qQ-t500x500.jpg)no-repeat center
+                center fixed;
+                background-size: cover;
+            }
+#navbar{
+    margin: 0;
+    width: 80%;
+    height: 10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar .logo{
+    font-size:30px ;
+    font-weight: 700;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+    margin-left:35px ;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition:.5s ;
+
+}
+.navbar ul li:hover a{
+    color: #7cf03d;
+    
+}
